@@ -16,11 +16,15 @@
            COPY "mods/ws-2v-vars.cpy".
 
        PROCEDURE DIVISION.
-           DISPLAY "=============================="
-           DISPLAY "  SELECT SOLVER"
-           DISPLAY "=============================="
-           DISPLAY "  [ 1 ] SPLSV" & X"09" & "[ 2 ] SPLDV"
-           DISPLAY "=============================="
+           DISPLAY 
+           "============================================="
+           DISPLAY "                SELECT SOLVER"
+           DISPLAY 
+           "============================================="
+           DISPLAY 
+           "  [ 1 ] ONE VARIABLE" & X"09" & "[ 2 ] TWO VARIABLES"
+           DISPLAY
+           "============================================="
            DISPLAY "  ENTER CHOICE: " WITH NO ADVANCING
            ACCEPT WS-CHOICE.
 
